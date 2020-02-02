@@ -6,6 +6,7 @@ This project was made with express js. It use  :
 - "Foreign key" in the shema monggose
 - "Function" to convert date format in app.js
 - "ejs partials" to organise the code
+- "charts"
  
  
  
