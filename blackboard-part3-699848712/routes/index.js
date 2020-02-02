@@ -11,6 +11,7 @@ router.get('/', async function(req, res, next) {
   var emptyStocks = await articleModel.find({stock:0})
 
   var user = await userModel.findById('5c52e4efaa4beef85aad5e52');
+  // récupère les messages du user 
   var messages = user.messages;
   
   var unreadMessages = 0;
@@ -28,7 +29,7 @@ router.get('/', async function(req, res, next) {
       taskInprogress +=1;
     }
   }
-
+// On renvoie les propriétés au Front 
   res.render('index',{emptyStocks:emptyStocks.length,unreadMessages,taskInprogress});
 });
 
