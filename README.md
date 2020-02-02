@@ -1,11 +1,19 @@
 # LC_Blackboard
 
 This project was made with express js. It use  :
+- "research on data-base"
 - "sous-documents"
 - "Foreign key" in the shema monggose
 - "Function" to convert date format in app.js
 - "ejs partials" to organise the code
  
+ 
+ 
+ 
+Research on data base 
+
+<img width="679" alt="Capture d’écran 2020-02-02 à 20 51 47" src="https://user-images.githubusercontent.com/39524369/73614290-e472e980-45fd-11ea-9a5a-27bdd39efb65.png">
+
 Home page
 <img width="1160" alt="Capture d’écran 2020-02-02 à 20 33 02" src="https://user-images.githubusercontent.com/39524369/73614013-952bb980-45fb-11ea-9447-d4f0b31c22a5.png">
 
