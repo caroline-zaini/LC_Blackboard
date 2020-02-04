@@ -30,3 +30,15 @@ Commandes
 Charts
 <img width="1158" alt="Capture d’écran 2020-02-02 à 20 34 09" src="https://user-images.githubusercontent.com/39524369/73614026-ad033d80-45fb-11ea-9d53-c7571d848ddf.png">
 
+
+# To run the app localy :
+
+sudo npm install
+
+sudo npm install -g nodemon
+
+sudo npm install express-session --save 
+
+sudo npm install mongoose --save
+
+http://localhost:3000
